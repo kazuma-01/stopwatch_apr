@@ -1,0 +1,70 @@
+/* .title.big{
+    background-color: aqua;
+}
+
+#big{
+    font-size: 25px;
+}
+article *{
+    color:red;
+}
+
+a[href="https://www.yaoo.com"]{
+        color: red;
+    } 
+
+a[href^="https://www"]{
+    color: red;
+} 
+a[href*="yahoo"]{
+    color: royalblue;
+}
+a[href$=".co.jp"]{
+    color: salmon;
+}
+article p:not(:first-of-type){
+    color: red;
+}
+p:not(:hover){
+    background-color: pink;
+}
+h1::before{
+    content: "!!!!";
+}
+p::first-line{
+    color: plum;
+}
+p::first-letter{
+    font-size: 20px;
+}
+article p+p{
+    margin-top: 20px;
+}
+article h1~p{
+    color: red;
+} */
+.stopwatch {
+    width: 600px;
+    margin: 10% auto;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #ccc;
+    padding: 20px;
+}
+
+.stopwatch h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.stopwatch p {
+    border: solid 1px #999;
+    padding: 8px;
+    font-size : 2em;
+    text-align: center;
+    color: #333;
+}
+
+.stopwatch div {
+    text-align: center;
+}
